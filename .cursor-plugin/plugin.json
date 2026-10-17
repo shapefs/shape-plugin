@@ -1,0 +1,23 @@
+{
+  "name": "shape",
+  "version": "1.0.0",
+  "description": "Find, read, save and organize files in your Shape workspace. Shape gives people and their AI agents the same folders, originals and version history. Browse folders, search by name or content, inspect images and file details, read text and extracted PDF text, and download originals. With your approval, create folders, save text and other files, edit text, restore versions, rename, move and tag entries, and move items to recoverable Trash. Each connection is limited to one workspace and the capabilities you approve. Revoke it in Shape's Connect page. Agents cannot permanently delete files, manage members or billing, or publish files. A Shape account and workspace are required. Plan limits apply; changes require an active plan. Uploading and downloading bytes depends on the client's network and file capabilities. Content search, extracted text and previews depend on file processing and format support.",
+  "author": {
+    "name": "Shape FS",
+    "email": "support@shapefs.com",
+    "url": "https://shapefs.com"
+  },
+  "homepage": "https://shapefs.com/connect",
+  "repository": "https://github.com/shapefs/shape-plugin",
+  "license": "MIT",
+  "keywords": [
+    "files",
+    "folders",
+    "creative",
+    "assets",
+    "search",
+    "mcp"
+  ],
+  "logo": "assets/icon.png",
+  "mcpServers": "./mcp.json"
+}
