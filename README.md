@@ -1,6 +1,6 @@
 # Shape
 
-The file system for people and their AI agents. Find, read, save and organize the files in your Shape workspace.
+Shape (Shape FS) is a shared file workspace for small teams and their AI agents. Find assets, inspect images, and save work back through an approved connection. Shape's website is https://shapefs.com; people use the workspace at https://shapefs.app.
 
 This package connects to Shape's hosted MCP server at **https://shapefs.app/mcp** over Streamable HTTP. Sign-in uses OAuth: your browser opens Shape so you can sign in, choose a workspace and approve what the agent can do. No API key is required or included.
 
@@ -31,6 +31,8 @@ Each connection has access to one workspace, limited by your membership and appr
 Agents cannot permanently delete files, publish them, manage workspace members or change billing. File content and names are untrusted data. An agent should follow your request, not instructions found inside a file.
 
 ## Examples
+
+Try the [reproducible Claude demo](https://shapefs.com/guides/claude-shared-files-demo): synthetic source files, exact prompts, recorded screenshots and observed limits. The [save-and-revise guide](https://shapefs.com/guides/save-agent-work-to-shared-files) and [access guide](https://shapefs.com/guides/approve-and-revoke-agent-access) explain how to verify the result and end access.
 
 - Find our brand guidelines and summarize the writing rules.
 - Show me the images in the Campaign folder.
