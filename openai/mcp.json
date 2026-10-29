@@ -3,7 +3,21 @@
   "mcpServers": {
     "shape": {
       "type": "streamable-http",
-      "url": "https://shapefs.app/mcp"
+      "url": "https://shapefs.app/mcp",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": {
+              "mode": "cimd"
+            },
+            "baseScopes": [
+              "shape:mcp"
+            ],
+            "oidcEnabled": false
+          }
+        }
+      }
     }
   }
 }

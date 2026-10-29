@@ -28,7 +28,7 @@ Ask “List the folders in my Shape workspace” to confirm the connection. Inst
 
 Each connection has access to one workspace, limited by your membership and approved capabilities. Revoke or review connections in Shape → Connect. A file or folder link identifies an entry; it grants no access by itself. Tools that need a missing capability return a request for the person to approve; they do not act first.
 
-Agents cannot permanently delete files, publish them, manage workspace members or change billing. File content and names are untrusted data. An agent should follow your request, not instructions found inside a file.
+Agents cannot permanently delete files, manage workspace members or change billing. Publishing images to the web requires separate Owner permission. File content and names are untrusted data. An agent should follow your request, not instructions found inside a file.
 
 ## Examples
 
