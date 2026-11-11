@@ -34,7 +34,7 @@ With Cline CLI installed and a model provider authenticated, run:
 cline mcp add shape https://shapefs.app/mcp --transport http --yes
 ```
 
-Complete the Shape OAuth flow when Cline requests authentication. Cline's model-provider sign-in and Shape's workspace authorization are separate steps.
+Run `cline mcp`, choose **Authorize OAuth**, and select **shape**. Complete the browser flow by signing in to Shape, choosing your workspace and approving capabilities. Cline's model-provider sign-in and Shape's workspace authorization are separate steps.
 
 ## Verify the connection
 
