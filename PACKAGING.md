@@ -5,14 +5,15 @@ This repository contains client packages and registry metadata for Shape's hoste
 | Client or registry | Manifest or configuration |
 | --- | --- |
 | Cursor | `.cursor-plugin/plugin.json` and `mcp.json` |
-| Claude workflow plugin | `.claude-plugin/plugin.json`, `.mcp.json` and `skills/` |
+| Claude workflow plugin | `claude/.claude-plugin/plugin.json`, `claude/.mcp.json` and `claude/skills/` |
 | Claude marketplace | `.claude-plugin/marketplace.json` |
+| GitHub Copilot CLI | The `shape-files` plugin from the same Claude marketplace |
 | Gemini CLI | `gemini-extension.json` |
 | Cline | `cline/mcp.json` |
 | Official MCP Registry | `server.json` |
 | OpenAI | `openai/plugin.json` and `openai/mcp.json` |
 
-The root client packages share branding and the hosted endpoint. The `openai/` directory is a separate, portable Agent Plugins package with an explicit archive file list.
+The root client packages share branding and the hosted endpoint. The Claude workflow plugin is a self-contained package under `claude/`; it contains only its manifest, MCP configuration, skill, icon, README and license. Its skill, icon and license match the shared copies. The `openai/` directory is a separate, portable Agent Plugins package with an explicit archive file list.
 
 To produce the OpenAI ZIP from this repository:
 

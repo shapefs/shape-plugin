@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "shape-files",
-      "source": "./",
+      "source": "./claude",
       "description": "Find shared sources, save revisions, and organize project files in Shape."
     }
   ]

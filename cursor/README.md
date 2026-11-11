@@ -4,10 +4,10 @@ Connect Cursor to your Shape workspace through the hosted MCP server at `https:/
 
 ## Install from this repository
 
-1. Open Cursor's **Customize** view and select **Plugins**.
-2. Choose **Add → From GitHub Repository**.
+1. Open Cursor's **Customize** view and choose **Browse Marketplace** if you are viewing installed plugins.
+2. Choose **Add Marketplace → Import from GitHub**. Some versions show this as **Add → From GitHub Repository**.
 3. Enter `https://github.com/shapefs/shape-plugin` and import the marketplace.
-4. Find **shape** in the imported **shape-fs** marketplace and add it.
+4. Find **shape** in the imported marketplace and add it. Cursor may label the marketplace **Shapefs Shape Plugin**, using the repository name.
 5. In **Customize → MCPs**, connect the Shape server. Complete the browser sign-in, choose your workspace and approve the capabilities you want Cursor to have.
 
 This repository includes a Cursor marketplace manifest and one Shape plugin. A public repository is installable independently of Cursor Marketplace approval.

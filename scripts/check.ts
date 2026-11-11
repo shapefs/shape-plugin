@@ -53,6 +53,17 @@ for (const path of jsonFiles.sort()) {
     await reference(value.logo, root);
     await reference(value.mcpServers, root);
   }
+  if (label === "claude/.claude-plugin/plugin.json") {
+    await reference(value.icon, join(root, "claude"));
+    await reference(".mcp.json", join(root, "claude"));
+    await reference("skills/shape-files/SKILL.md", join(root, "claude"));
+  }
+  if (label === ".claude-plugin/marketplace.json") {
+    for (const plugin of value.plugins) {
+      await reference(plugin.source, root);
+      await reference(".claude-plugin/plugin.json", resolve(root, plugin.source));
+    }
+  }
   if (label === "openai/plugin.json") {
     requireValue(value.description && typeof value.description === "string", `${label}: missing description`);
   }
@@ -67,6 +78,15 @@ for (const path of jsonFiles.sort()) {
     requireValue((servers.shape.url ?? servers.shape.httpUrl) === endpoint, `${label}: unexpected MCP endpoint`);
   }
 }
+
+for (const path of ["skills/shape-files/SKILL.md", "assets/icon.png", "LICENSE"]) {
+  const shared = await readFile(join(root, path));
+  const packaged = await readFile(join(root, "claude", path));
+  requireValue(shared.equals(packaged), `claude/${path}: packaged copy differs from shared source`);
+}
+
+const clineIcon = await readFile(join(root, "cline/icon.png"));
+requireValue(clineIcon.readUInt32BE(16) === 400 && clineIcon.readUInt32BE(20) === 400, "Cline icon must be 400 × 400 pixels");
 
 for (const path of markdownFiles) {
   const text = await readFile(path, "utf8");
