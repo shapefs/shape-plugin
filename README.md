@@ -53,6 +53,6 @@ If a connection fails, check account access, the workspace's plan, your client's
 
 [Setup](https://shapefs.com/connect) · [Support](https://shapefs.com/support) · [Privacy](https://shapefs.com/privacy) · [Terms](https://shapefs.com/terms)
 
-Publisher: **Shape FS**. Contact **support@shapefs.com**. Shape processes stored files for search and tags as described in its privacy policy. Information returned to an AI client is also handled under that client's terms and privacy policy.
+Publisher: **Work In Progress LLC, doing business as Shape FS**. Contact **support@shapefs.com**. Shape processes stored files for search and tags as described in its privacy policy. Information returned to an AI client is also handled under that client's terms and privacy policy.
 
 The MIT license covers this plugin package. The hosted Shape service and its private application source remain governed by their own terms and licenses. Brand assets remain Shape FS trademarks; the license grants no trademark endorsement rights.

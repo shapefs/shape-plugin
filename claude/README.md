@@ -2,6 +2,8 @@
 
 Shape Files combines Shape's hosted MCP connection with a workflow skill for finding sources, saving precise revisions, organizing project files and handing work back with an original file link.
 
+Publisher: Work In Progress LLC, doing business as Shape FS. The `shapefs` GitHub organization and [shapefs.com](https://shapefs.com) are the same publisher behind the existing [Shape directory connector](https://claude.ai/directory/shape). Shape Files is its workflow plugin.
+
 For Claude Code, add the public marketplace and install the plugin:
 
 ```sh
