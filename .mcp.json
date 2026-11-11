@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "shape": {
+      "type": "http",
+      "url": "https://shapefs.app/mcp"
+    }
+  }
+}

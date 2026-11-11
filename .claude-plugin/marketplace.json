@@ -1,0 +1,17 @@
+{
+  "name": "shape-fs",
+  "owner": {
+    "name": "Shape FS",
+    "email": "support@shapefs.com"
+  },
+  "metadata": {
+    "description": "Shape's shared file workflows for people and AI agents."
+  },
+  "plugins": [
+    {
+      "name": "shape-files",
+      "source": "./",
+      "description": "Find shared sources, save revisions, and organize project files in Shape."
+    }
+  ]
+}

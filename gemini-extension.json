@@ -1,0 +1,10 @@
+{
+  "name": "shape",
+  "version": "1.0.0",
+  "description": "Find, read, save and organize files in your shared Shape workspace.",
+  "mcpServers": {
+    "shape": {
+      "httpUrl": "https://shapefs.app/mcp"
+    }
+  }
+}

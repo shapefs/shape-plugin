@@ -11,8 +11,11 @@ You need a Shape account and workspace. Account access and plan limits apply. Se
 ## Connect
 
 - **ChatGPT / Codex:** install the Shape plugin when it is available in your directory, then complete OAuth. For custom connections, follow [the setup guide](https://shapefs.com/connect#chatgpt).
-- **Claude:** add Shape as a custom remote connector using `https://shapefs.app/mcp`, then connect and complete OAuth. A directory listing is separate from this package.
-- **Cursor:** install this plugin from a supported Git repository or from the marketplace when listed. Connect the Shape MCP server and complete OAuth. You can also add the same URL as a custom MCP server.
+- **Claude:** add the published [Shape connector](https://claude.ai/directory/shape), then complete OAuth.
+- **Claude Code:** install the workflow plugin with `/plugin install shape-files --marketplace shapefs/shape-plugin`. See the [Claude plugin guide](claude/README.md) for setup and permissions.
+- **Gemini CLI:** run `gemini extensions install https://github.com/shapefs/shape-plugin`, then connect Shape through OAuth. See the [Gemini CLI guide](gemini/README.md).
+- **Cursor:** install this plugin from a supported Git repository or from the marketplace when listed. See the [Cursor guide](cursor/README.md). You can also add the same URL as a custom MCP server.
+- **Cline:** add Shape's hosted server using the [Cline guide](cline/README.md), then complete OAuth.
 - **Grok:** open Connectors, choose New Connector → Custom, enter `https://shapefs.app/mcp` and authenticate. This is a custom connection, not a claim of catalog inclusion.
 
 Ask “List the folders in my Shape workspace” to confirm the connection. Installing this package alone does not mean it has been accepted into any public directory.

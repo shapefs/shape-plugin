@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.shapefs/shape",
+  "title": "Shape",
+  "description": "Find, read, save and organize files in your Shape workspace, with revocable OAuth access.",
+  "version": "1.0.0",
+  "websiteUrl": "https://shapefs.com/connect",
+  "repository": {
+    "url": "https://github.com/shapefs/shape-plugin",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/shapefs/shape-plugin/main/assets/icon.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://shapefs.app/mcp"
+    }
+  ]
+}

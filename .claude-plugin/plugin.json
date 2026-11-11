@@ -1,0 +1,20 @@
+{
+  "name": "shape-files",
+  "displayName": "Shape Files",
+  "version": "1.0.0",
+  "description": "Find shared sources, save precise revisions, organize project files, and hand off work in Shape.",
+  "author": {
+    "name": "Shape FS",
+    "email": "support@shapefs.com",
+    "url": "https://shapefs.com"
+  },
+  "homepage": "https://shapefs.com/connect",
+  "repository": "https://github.com/shapefs/shape-plugin",
+  "license": "MIT",
+  "keywords": ["files", "folders", "assets", "versions", "mcp"],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://shapefs.com/connect",
+  "supportUrl": "https://shapefs.com/support",
+  "privacyPolicyUrl": "https://shapefs.com/privacy",
+  "termsOfServiceUrl": "https://shapefs.com/terms"
+}

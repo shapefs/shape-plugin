@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "shape": {
+      "type": "streamableHttp",
+      "url": "https://shapefs.app/mcp",
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
